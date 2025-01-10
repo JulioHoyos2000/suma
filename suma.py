@@ -1,4 +1,9 @@
-primerSumando = int(input("Ingrese el primer sumando: "))
-segundoSumando = int(input("Ingrese segundo sumando: "))
+def suma(primerSumando, segundoSumando):
+    return primerSumando + segundoSumando
 
-print(f"{primerSumando} + {segundoSumando} = {primerSumando + segundoSumando}")
+if __name__ == '__main__':
+    primerSumando = int(input("Ingrese el primer sumando: "))
+    segundoSumando = int(input("Ingrese segundo sumando: "))
+
+    print(f"{primerSumando} + {segundoSumando} = {suma(primerSumando, segundoSumando)}")
+
